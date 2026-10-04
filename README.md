@@ -25,10 +25,10 @@
 
 ### Featured projects
 
-#### ⚾ [lidom-stats](https://github.com/arturomespinal/lidom-stats)
-Stats platform for the Dominican Winter League (LIDOM). Ingests games from the MLB Stats API, models them in a relational store and serves them through an API with web and mobile clients.
-- **Stack:** Python · FastAPI · SQLAlchemy · Pydantic · TypeScript
-- **Highlights:** idempotent upserts, live game poller and parser, box-score ingestion, win-probability model, offline verification suite built on captured real payloads
+#### ⚾ [Deportiv - lidom-stats](https://github.com/arturomespinal/lidom-stats)
+Data platform for LIDOM, the Dominican Professional Baseball League: every game since 2012-13, live games pitch by pitch, and league history back to 1951.
+- **Stack:** Python · FastAPI · SQLAlchemy · Pydantic · Next.js · Expo / React Native · Oracle Cloud
+- **Highlights:** end-to-end pipeline from the official feed to REST API, web and mobile apps; live engine refreshing every ~10 s; win-probability model calibrated on LIDOM's own run environment; idempotent upserts and an offline verification suite built on captured real payloads
 
 #### 🧠 [temporal-rag-tfm](https://github.com/arturomespinal/temporal-rag-tfm)
 Master's thesis: **Retrieval-Augmented Generation for time series**. A contrastive Transformer encoder + FAISS vector index acts as historical memory for forecasting and anomaly detection.
@@ -51,6 +51,8 @@ Workforce analytics report in Power BI (PBIP / TMDL): headcount, turnover anatom
 <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square" alt="SQL Server">
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native">
 
 **Engineering & ML**
 <br>
@@ -67,6 +69,7 @@ Workforce analytics report in Power BI (PBIP / TMDL): headcount, turnover anatom
 <img src="https://img.shields.io/badge/DAX-F2C811?style=flat-square" alt="DAX">
 <img src="https://img.shields.io/badge/Microsoft%20Fabric-117865?style=flat-square" alt="Microsoft Fabric">
 <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square" alt="Azure">
+<img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square" alt="Oracle Cloud">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 
 **Learning now**
